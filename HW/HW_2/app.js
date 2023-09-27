@@ -65,3 +65,18 @@ console.log(output);
 
 
 console.log("<<<<<<<<<<<<<<<<<<Task3>>>>>>>>>>>>>>>>>.")
+let age = 10;
+let ticketPrice = 1000;
+if (age > 0 && age < 120) {
+    if (age <= 2) {
+        console.log("Ticket price ", ticketPrice * 0)
+    } else if (age > 2 && age <= 12) {
+        console.log("Ticket price ", ticketPrice * 0.5)
+    } else if (age > 12 && age <= 65) {
+        console.log("Ticket price ", ticketPrice * 1)
+    } else if (age > 65) {
+        console.log("Ticket price ", ticketPrice * 0.8)
+    }
+} else {
+    console.log("Проверь возраст ")
+}
